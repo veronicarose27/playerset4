@@ -1,5 +1,5 @@
 g=input()
+count=0
 for i in g:
-    pass
-l=g.index(i)
-print(l+1)  
+    count=count+1
+print(count,end='')   
