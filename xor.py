@@ -1,6 +1,7 @@
-p=int(input())
-q=list(map(int,input().split()))
-l=q[0]
-for i in range(1,p):
-    l=l^q[i]
-print(l)
+n4=int(input())
+l=[int(i) for i in input().split()]
+r4=0
+for i in range(0,n4):
+    for j in range(i+1,n4):
+        r4=l[i]^l[j]
+print(r4)
